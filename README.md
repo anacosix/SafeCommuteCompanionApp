@@ -10,3 +10,5 @@ Important hints before testing out the app:
 Make sure to change the String on line 59 in safe-commute-companion_project/app/src/main/java/com/punchthrough/blestarterappandroid/ScanResultAdapter.kt to the Serial Number of your own Arduino board (we used the Lightblue App to find out our boards Serial number, which is available on the Google Play Store).
 
 Also change the name of the device on line 167 in safe-commute-companion_project/app/src/main/java/com/punchthrough/blestarterappandroid/MainActivity.kt to the name that you gave your Arduino board in the Arduino sketch. 
+
+After these changes build an .apk-file and download it onto your device to test your app (only Android OS supported). 
